@@ -29,9 +29,27 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss",
+              "src/assets/stylesheets/style.css",
+              "src/assets/stylesheets/ps-icon/style.css",
+              "src/assets/stylesheets/ionicons/ionicons.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "src/assets/javascripts/jquery.barrating.min.js",
+              "src/assets/javascripts/gmap3.min.js",
+              "src/assets/javascripts/bootstrap-select.min.js",
+              "src/assets/javascripts/slick.js",
+              "src/assets/javascripts/jquery.elevatezoom.js",
+              "src/assets/javascripts/jquery.magnific-popup.min.js",
+              "src/assets/javascripts/owl.carousel.min.js",
+              "src/assets/javascripts/revolution/jquery.themepunch.revolution.min.js",
+              "src/assets/javascripts/revolution/jquery.themepunch.enablelog.js",
+              "src/assets/javascripts/revolution/jquery.themepunch.tools.min.js",
+              "src/assets/javascripts/revolution/tp-color-picker.min.js",
+              "src/assets/javascripts/main.js"
+            ]
           },
           "configurations": {
             "production": {
